@@ -12,4 +12,4 @@ activate_env = os.path.expanduser(os.path.join(os.path.dirname(__file__), 'env/b
 execfile(activate_env, dict(__file__=activate_env))
  
 # import my_flask_app as application
-from my_flask_app import app as application
+from application import app as application
